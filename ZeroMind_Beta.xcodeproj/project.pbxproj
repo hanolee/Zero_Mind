@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C395CD5259814F7007548BC /* ZeroMindLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C395CD4259814F7007548BC /* ZeroMindLabel.swift */; };
 		2C553EC42595B41A00D2A388 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C553EC32595B41A00D2A388 /* AppDelegate.swift */; };
 		2C553EC62595B41A00D2A388 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C553EC52595B41A00D2A388 /* SceneDelegate.swift */; };
 		2C553EC82595B41A00D2A388 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C553EC72595B41A00D2A388 /* MainViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C395CD4259814F7007548BC /* ZeroMindLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroMindLabel.swift; sourceTree = "<group>"; };
 		2C553EC02595B41A00D2A388 /* ZeroMind_Beta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZeroMind_Beta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C553EC32595B41A00D2A388 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C553EC52595B41A00D2A388 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			children = (
 				2C553EE12595B6D200D2A388 /* ZeroMindButton.swift */,
 				2C553EE42595B71900D2A388 /* ZeroMindViewController.swift */,
+				2C395CD4259814F7007548BC /* ZeroMindLabel.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				2C553EE52595B71900D2A388 /* ZeroMindViewController.swift in Sources */,
 				2C553EC82595B41A00D2A388 /* MainViewController.swift in Sources */,
 				2C553EC42595B41A00D2A388 /* AppDelegate.swift in Sources */,
+				2C395CD5259814F7007548BC /* ZeroMindLabel.swift in Sources */,
 				2C553EE22595B6D200D2A388 /* ZeroMindButton.swift in Sources */,
 				2C553EDD2595B5DC00D2A388 /* NavViewController.swift in Sources */,
 				2C553EC62595B41A00D2A388 /* SceneDelegate.swift in Sources */,

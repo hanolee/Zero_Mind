@@ -16,14 +16,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zero Mind" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yJt-4v-zLB">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zero Mind" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yJt-4v-zLB" customClass="ZeroMindLabel" customModule="ZeroMind_Beta" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="102" width="414" height="137"/>
                                 <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="80"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bf0-Mh-u7G" customClass="ZeroMindButton" customModule="ZeroMind_Beta" customModuleProvider="target">
-                                <rect key="frame" x="164" y="735" width="87" height="71"/>
+                                <rect key="frame" x="75" y="730" width="264" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="50"/>
                                 <state key="normal" title="Start">
@@ -43,7 +43,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1897.1014492753625" y="-303.34821428571428"/>
+            <point key="canvasLocation" x="-2014.4927536231885" y="-303.34821428571428"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="wIk-7g-aAR">
@@ -58,22 +58,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IyX-TC-u4g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-819" y="383"/>
+            <point key="canvasLocation" x="33" y="-303"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="36l-WE-WiG">
             <objects>
-                <viewController id="6lQ-oX-KWd" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" id="6lQ-oX-KWd" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="T3O-9v-S55">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="oTA-s5-SJK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="s8l-Tk-90R"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6ec-nO-N9g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-813" y="-303"/>
+            <point key="canvasLocation" x="-1049.2753623188407" y="-303.34821428571428"/>
         </scene>
     </scenes>
     <resources>

@@ -12,8 +12,8 @@ class ZeroMindButton: UIButton {
     override func awakeFromNib() {
         super.awakeFromNib()
         layer.borderColor = UIColor.init(red: 255, green: 255, blue: 255, alpha: 1).cgColor
-        layer.borderWidth = 3
-        
+        layer.borderWidth = 1
+        layer.cornerRadius = 20
     }
 
 }
